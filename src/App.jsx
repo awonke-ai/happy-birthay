@@ -1,11 +1,17 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import birthdayCover from "./assets/images/22.png";
+import goodnight from "./assets/images/Goodnight.png";
+import nlfImg from "./assets/images/NLF.png";
+import CS from "./assets/images/CS.png";
+
+
 
 const books = [
   {
     id: "HBD",
     title: "Happy Birthday",
-    cover: "/images/22.png",
+    cover: birthdayCover,
      pages: [
     { text: "Happy Birthday 🤍", image: null },
     { text: "I know you’ve been a obsessed with your Kindle lately.", image: null },
@@ -15,7 +21,7 @@ const books = [
     { text: "This is your birthday story.", image: null },
     { text: "You don’t have to rush.\nJust read it the way you read everything else.", image: null },
     { text: "Slowly.\nFully.\nLike it matters.", image: null },
-    { text: "I’m really glad you’re here.", image: "/images/birthday-1.jpg" },
+    { text: "I’m really glad you’re here.", image: null },
     { text: "Happy Birthday.\nI hope today is everything you want it to be.", image: null },
     { text: "I continually ask God to fill you with the knowledge \nof his will through the wisdom and understanding that the spirit gives. \nThen the war you live will always honor and please the lord, \nand your life will produce everykind of good fruit. ", image: null },
     { text: "May the Lord bless you and keep you.\nMay the Lord make his face shine upon you and be gracious to you.\nMay the Lord turn his face toward you and give you peace.", image: null },
@@ -25,7 +31,7 @@ const books = [
   {
     id: "Goodnight",
     title: "For nights when you can't fall asleep",
-    cover: "/images/Goodnight.png",
+    cover: goodnight,
     pages: [
   { text: "If you're reading this late at night…", image: null },
   { text: "When the world has finally gone quiet.", image: null },
@@ -58,7 +64,7 @@ const books = [
   {
   id: "lemons",
   title: "Nothing Lasts Forever",
-  cover: "/images/NLF.png",
+  cover: nlfImg,
   pages: [
     { text: "Whatever you’re going through right now…", image: null },
     { text: "God is not distant from it.", image: null },
@@ -94,7 +100,7 @@ const books = [
   ,{
     id: "coming soon",
     title: "Coming soon!",
-    cover: "/images/CS.png",
+    cover: CS,
     pages: [
       { text: "This page is still under construction.", image: null }
       
